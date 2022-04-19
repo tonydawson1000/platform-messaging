@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D043661A-4341-4E53-AC37-ED8193C2EF33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9A01705D-715D-4B25-A251-D000EA8887DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Device", "Device", "{51AC56E7-E63E-4F48-85C3-7CB998E96BB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{9760186B-E08A-4DD9-95E9-42A318A93A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device.Tests", "tests\Device.Tests\Device.Tests.csproj", "{0C1723C2-27D8-4357-941A-6075F726ABDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device", "src\Device\Device.csproj", "{AD3BDED4-549E-4D53-A512-ECAD3D55E9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging", "src\Messaging\Messaging\Messaging.csproj", "{FF17C079-FB2C-4BCD-A985-9DFEA56E64D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C1723C2-27D8-4357-941A-6075F726ABDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1723C2-27D8-4357-941A-6075F726ABDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1723C2-27D8-4357-941A-6075F726ABDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1723C2-27D8-4357-941A-6075F726ABDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3BDED4-549E-4D53-A512-ECAD3D55E9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3BDED4-549E-4D53-A512-ECAD3D55E9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3BDED4-549E-4D53-A512-ECAD3D55E9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3BDED4-549E-4D53-A512-ECAD3D55E9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF17C079-FB2C-4BCD-A985-9DFEA56E64D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF17C079-FB2C-4BCD-A985-9DFEA56E64D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF17C079-FB2C-4BCD-A985-9DFEA56E64D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF17C079-FB2C-4BCD-A985-9DFEA56E64D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51AC56E7-E63E-4F48-85C3-7CB998E96BB8} = {D043661A-4341-4E53-AC37-ED8193C2EF33}
+		{9760186B-E08A-4DD9-95E9-42A318A93A2B} = {D043661A-4341-4E53-AC37-ED8193C2EF33}
+		{0C1723C2-27D8-4357-941A-6075F726ABDB} = {9A01705D-715D-4B25-A251-D000EA8887DE}
+		{AD3BDED4-549E-4D53-A512-ECAD3D55E9B4} = {51AC56E7-E63E-4F48-85C3-7CB998E96BB8}
+		{FF17C079-FB2C-4BCD-A985-9DFEA56E64D2} = {9760186B-E08A-4DD9-95E9-42A318A93A2B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BBF2C05-DF40-4BB9-8BDA-9E3C3BC039EA}
+	EndGlobalSection
+EndGlobal
